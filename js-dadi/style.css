@@ -1,7 +1,13 @@
 body {
-    background-color: rgb(115, 247, 236);
+    background-color: #b7e3ee;
+    color: #033249;
 }
 
 h1 {
-    color: rgb(0, 60, 255);
+    color: #246893;
+}
+
+.game {
+    background-color: #0873896b;
+    height: auto;
 }

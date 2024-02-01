@@ -14,15 +14,18 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="text-center mt-5 display-1 fw-bold">TIRA I DADI</h1>
-        <div>
+    <div class="container pt-5 px-3">
+        <h1 class="text-center mt-5 mb-5 display-1 fw-bold">TIRA I DADI</h1>
 
-            <input id="run" type="button" value="Tira il dado">
-            <div id="invalid-choice"></div>
-            <div id="user">Hai scelto:</div>
-            <div id="computer">Il computer ha scelto:</div>
-            <div id="result"></div>
+        <div class="d-flex flex-column align-items-center mx-5">
+            <div class="game px-5 pb-5 rounded-5 shadow ">
+                <div class="fs-3 mt-4 text-center" id="user">Hai scelto:</div>
+                <div class="fs-3 text-center" id="computer">Il computer ha scelto:</div>
+                <div class="my-4 text-center">
+                    <button id="run" type="button" class="btn btn-info text-white">Lancia</button>
+                </div>
+                <div class="fs-3 text-center" id="result"></div>
+            </div>
         </div>
     </div>
 
